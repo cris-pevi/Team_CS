@@ -1,0 +1,89 @@
+body {
+    font-family: Arial;
+    background-color: #f5f5f5;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+h1 {
+    color: #06f;
+    margin-bottom: 20px;
+}
+
+.platform {
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.platform a {
+    text-decoration: none;
+    color: #0066ff;
+}
+
+.card {
+    background-color: #eeeeee;
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-top: 30px;
+    padding-bottom: 5px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.io-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.io-table th {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.io-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.io-table td, .io-table td {
+    width: 50%;
+}
+
+.io-table pre {
+    margin: 0;
+    padding: 0;
+}
+
+pre {
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+    font-family: Consolas, monospace;
+    font-size: 14px;
+    text-align: left;
+}
+
+.explanation {
+    margin-top: 15px;
+}

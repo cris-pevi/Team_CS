@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Candy Division</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>
+                Candy Division
+                <span class="platform">
+                    Codechef
+                </span>
+            </h1>
+
+            <div class="card">
+                <p>
+                    There are <strong>three</strong> friends and a total of N candies. There will be a flight amongst the friends if all of them do not get the same number of candies.
+                </p>
+
+                <p>
+                    Cheff wants to divide <strong>all</strong> the candies such that there is <strong>no fight</strong>. Find wheter such distribution is possible.
+                </p>
+            </div>
+
+            <h2>Input Format</h2>
+            <ul>
+                <li>
+                    The first line of input will contain a single integer T, denoting the number of test cases.
+                </li>
+                <li>
+                    Each test case consists of a single integer N - the number of candies.
+                </li>
+            </ul>
+
+            <h2>Output Format</h2>
+            <p>
+                For each test case, output <strong>YES</strong>, if we can distribute all the candies between the three friends equally. Otherwise output <strong>NO</strong>.
+            </p>
+
+            <p>
+                You can output each character of the answer in uppercase or lowercase. For example, the strings <strong>yEs, yes, Yes</strong>, and YES are considered the same. 
+            </p>
+
+            <h2>Constraints</h2>
+            <ul>
+                <li>1 ≤ T ≤ 100</li>
+                <li>0 ≤ N ≤ 100</li>
+            </ul>
+
+            <h2>Sample 1</h2>
+
+            <table class="io-table">
+                <thead>
+                    <tr>
+                        <th>Input</th>
+                        <th>Output</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <pre>4 <br>3 <br>4 <br>2 <br>6</pre>
+                        </td>
+                        <td>
+                            <pre><br>YES <br>NO <br>NO <br>YES</pre>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="explanation">
+                <p>
+                    <strong>Test Case 1:</strong> Chef can distribute all 3 candies such that each friend gets 1 candy. Since all three have same number of candies, there is no flight.
+                </p>
+                <p>
+                    <strong>Test Case 2:</strong> There exist no way of distributing <strong>all</strong> candies such that all three friends have same number of cnadies.
+                </p>
+                <p>
+                    <strong>Test Case 3:</strong> There exist no way of distributing <strong>all</strong> candies such that all three friends have same number of candies.
+                </p>
+                <p>
+                    <strong>Test case 4:</strong> Chef can distribute all 6 candies such that each friend gets 2 candies. Since all three friends have same number of candies, there is no flight.
+                </p>
+            </div>
+
+        </div>
+    </body>
+</html>
